@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!-- Alice Mantovani 193539
+	Viviane Bastos  207152
+	Cleyvesson Silva 195743
+	Jonathan Bozza 176497 -->
+<html>
+	<head>
+		<title>|JOGO DA VELHA|</title>
+	</head>
+<body>
+<h1> JOGO DO VELHA</h1>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<script src="script.js"></script>
+
+	<table class="jogo">
+	<!--
+Tabela do jogo
+q11	q21	q31
+q12	q22	q32
+q13	q23	q33
+	-->
+	<tr>
+	<td align="center" valign="middle" id="q11" class="jogov" onclick="joga(this.id);verif();"></td>
+	<td align="center" valign="middle" id="q12" class="jogov" onclick="joga(this.id);verif();"></td>
+	<td align="center" valign="middle" id="q13" class="jogov" onclick="joga(this.id);verif();"></td>
+	</tr>
+	<tr>
+	<td align="center" valign="middle" id="q21" class="jogov" onclick="joga(this.id);verif();"></td>
+	<td align="center" valign="middle" id="q22" class="jogov" onclick="joga(this.id);verif();"></td>
+	<td align="center" valign="middle" id="q23" class="jogov" onclick="joga(this.id);verif();"></td>
+	</tr>
+	<tr>
+	<td align="center" valign="middle" id="q31" class="jogov" onclick="joga(this.id);verif();"></td>
+	<td align="center" valign="middle" id="q32" class="jogov" onclick="joga(this.id);verif();"></td>
+	<td align="center" valign="middle" id="q33" class="jogov" onclick="joga(this.id);verif();"></td>
+	</tr>
+	</table>
+<br><input type="button" name="limpar" value="Tentar novamente" onclick="novo();" />
+</body>
+</html>
